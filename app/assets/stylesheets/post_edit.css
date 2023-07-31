@@ -1,0 +1,50 @@
+.image-preview { /* 写真 */
+  width: 250px;
+  position: absolute;
+  top: -35px;
+  right: -30px;
+}
+
+.preview-image {
+  max-width: 80%;
+  height: auto;
+}
+
+.title {
+  color: white;
+  list-style: none;
+}
+
+.btn-content {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.edit-btn {
+  display: inline-block;
+  border: 2px solid #000;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: rgb(197, 193, 193);
+  width: 200px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.or-text {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+.delete-btn {
+  border: 2px solid #000;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: rgb(197, 193, 193);
+  margin-right: 30px;
+  width: 200px;
+  text-decoration: none;
+  text-align: center;
+}

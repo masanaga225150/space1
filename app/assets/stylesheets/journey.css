@@ -1,0 +1,21 @@
+.journey-main {
+  background-image: url("宇宙.jpg");
+  background-size: 95%;
+  height: calc(100vh - 80px - 50px);
+  margin-top: 0px;
+  overflow: auto;
+}
+
+.journey-main p {
+  text-align: left;
+  font-size: 25px;
+  line-height: 35px;
+  color: white;
+  width: 85%;
+  padding-top: 50px;
+  margin-left: 70px;
+}
+
+.img {
+  background-image: url("惑星.jpg");
+}

@@ -1,0 +1,139 @@
+.menu {
+  background-image: url("宇宙.jpg");
+  background-size: 95%;
+  height: calc(100vh - 80px - 50px);
+  display: flex;
+  justify-content: center;
+}
+
+.menu-btn {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-size: 20px;
+  padding: 50px;
+}
+
+.post-btn {
+  text-decoration: none;
+  border: solid 2px;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  width: 300px;
+  padding: 5px;
+  text-align: center;
+}
+
+.posts-info-main { /* 全体 親 */
+  background-color: #f5f5f5;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  max-width: 80%;
+  height: calc(100vh - 80px - 50px);
+  position: relative;
+  margin: 0 auto;
+}
+
+.img-upload { /* 画像〜写真 子 */
+}
+
+.new-posts { /* ジャンル〜もどる */
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  margin: 50px auto;
+}
+
+.click-upload { /* クリック・・・〜写真 */
+  position: relative;
+}
+
+.click-upload>p { /* クリックしてファイルをアップロード */
+  color: black;
+  font-size: 15px;
+  text-align: left;
+  width: 150%;
+}
+
+.posts-info-title { /* 投稿する情報を入力 */
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.indispensable { /* 必須 */
+  background: #ea352d;
+  margin-left: 8px;
+  padding: 3px;
+  border-radius: 2px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.weight-bold-text { /* 画像・必須 ジャンル・タイトル・・・ */
+  font-weight: bold;
+  width: 50%;
+}
+
+.select-box { /* ジャンル */
+  height: 35px;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.posts-explain { /* タイトルの説明 */
+  margin-top: 50px;
+}
+
+.posts-text { /* タイトル */
+  width: 100%;
+  height: 35px;
+  line-height: 30px;
+}
+
+.posts-info-text { /* タイトルの説明 */
+  width: 100%;
+  height: 200px;
+}
+
+.new-items {
+  display: flex;
+  width: 100px;
+}
+
+.items-text {
+  font-size: 15px;
+  min-width: 250px;
+}
+
+.posts-btn-contents {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+.posts-btn {
+  text-decoration: none;
+  border: solid 2px;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  width: 300px;
+  padding: 5px;
+  text-align: center;
+} 
+
+.back-btn {
+  text-decoration: none;
+  border: solid 2px;
+  border-radius: 5px;
+  background-color: white;
+  color: black;
+  padding: 5px;
+  margin-left: 10px;
+}

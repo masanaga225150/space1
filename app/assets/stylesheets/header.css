@@ -1,0 +1,123 @@
+.menu-header {
+  background-color: #ffffff77;
+  height: 80px;
+  padding: 13px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.app-name a {
+  font-size: 40px;
+  color: rgb(59, 63, 65);
+  text-decoration: none;
+  text-shadow: 
+		0 0.05em 0.08em rgba(0,0,0,0.7);
+}
+
+p {
+  font-size:1em;
+	text-align:center;
+	line-height:0.95em;
+	font-weight:bold;
+	color: #a5b7ff;
+	text-shadow: 
+		0 0.05em 0.08em rgba(0,0,0,0.7);
+  margin-left: 80px;
+}
+
+.nav {
+  font-size: 15px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 40%;
+  padding: 1vh 50px;
+}
+
+.btns {
+  display: flex;
+  justify-content: center; /* 横方向に中央揃え */
+  margin-top: 10px;
+  list-style: none;
+  width: 100%;
+}
+
+.user-nickname {
+  text-decoration: none;
+  margin-top: 0.5vh;
+  margin-right: 3vw;
+  color: #333333;
+  font-weight: bold;
+  width: 100px; /* 幅を縮める */
+  display: flex; /* フレックスコンテナにする */
+  justify-content: center; /* 横方向に中央揃え */
+  align-items: center; /* 縦方向に中央揃え */
+}
+
+.logout {
+  text-decoration: none;
+  color: black;
+  border: 2px solid #000;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: rgb(197, 193, 193);
+  width: 100px; /* 幅を縮める */
+  display: flex; /* フレックスコンテナにする */
+  justify-content: center; /* 横方向に中央揃え */
+  align-items: center; /* 縦方向に中央揃え */
+}
+
+.login {
+  text-decoration: none;
+  margin-right: 3vw;
+  color: black;
+  border: 2px solid #000;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: rgb(197, 193, 193);
+  width: 100px; /* 幅を縮める */
+  display: flex; /* フレックスコンテナにする */
+  justify-content: center; /* 横方向に中央揃え */
+  align-items: center; /* 縦方向に中央揃え */
+}
+
+.sign-up {
+  text-decoration: none;
+  color: black;
+  border: 2px solid #000;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: rgb(197, 193, 193);
+  width: 100px; /* 幅を縮める */
+  display: flex; /* フレックスコンテナにする */
+  justify-content: center; /* 横方向に中央揃え */
+  align-items: center; /* 縦方向に中央揃え */
+}
+
+.menu-header.btns {
+  display: flex;
+  flex-direction: row;
+}
+
+.menu-header .btns > div {
+  margin-right: 10px;
+}
+
+.post-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5px;
+}
+
+.post {
+  display: flex;
+  flex-direction: column;
+  line-height: 0.6;
+}
+
+.nickname {
+  color: white;
+  list-style: none;
+  margin-top: 0px;
+  padding: 0px;
+}

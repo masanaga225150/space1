@@ -1,0 +1,7 @@
+<div class="menu-footer">
+  <div class="form">
+    <% if @posts.any? && @posts.first.image.present? %>
+      <%= link_to '投稿画像一覧ページ', post_path(@posts.first), class:"image-list" %>
+    <% end %>
+  </div>
+</div>
